@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  .clicker-script-regular {
+    font-family: "Clicker Script", serif;
+    /* font-weight: 400; */
+    font-style: normal;
+  }
+  /* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.raleway {
+  font-family: "Raleway", serif;
+  /* font-weight: 400; */
+  font-style: normal;
+}
+.menu_mob{
+    height: calc(100vh - 60px);
+    color: rgba(0, 0, 0, 0.37);
+}
+@keyframes anime1{
+  to{
+    border-right: 1px solid rgba(102, 121, 136, 0);
+  }
+}
+/* .material {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+} */
